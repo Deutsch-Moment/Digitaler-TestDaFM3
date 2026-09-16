@@ -212,13 +212,13 @@
         function showLesenResult() {
 
             const scores = [
-    Math.min(Number(localStorage.getItem("Lesen_AT1.2")) || 0, 5),
-    Math.min(Number(localStorage.getItem("Lesen_AT2.2")) || 0, 4),
-    Math.min(Number(localStorage.getItem("Lesen_AT3.2")) || 0, 7),
-    Math.min(Number(localStorage.getItem("Lesen_AT4.2")) || 0, 4),
-    Math.min(Number(localStorage.getItem("Lesen_AT5.2")) || 0, 7),
-    Math.min(Number(localStorage.getItem("Lesen_AT6.2")) || 0, 4),
-    Math.min(Number(localStorage.getItem("Lesen_AT7.2")) || 0, 3)
+    Math.min(Number(localStorage.getItem("Lesen_AT1.3")) || 0, 5),
+    Math.min(Number(localStorage.getItem("Lesen_AT2.3")) || 0, 4),
+    Math.min(Number(localStorage.getItem("Lesen_AT3.3")) || 0, 7),
+    Math.min(Number(localStorage.getItem("Lesen_AT4.3")) || 0, 4),
+    Math.min(Number(localStorage.getItem("Lesen_AT5.3")) || 0, 7),
+    Math.min(Number(localStorage.getItem("Lesen_AT6.3")) || 0, 4),
+    Math.min(Number(localStorage.getItem("Lesen_AT7.3")) || 0, 3)
 ];
 
             const correctItems = scores.reduce(
@@ -226,13 +226,13 @@
                 0
             );
 
-            console.log("AT1.2:", scores[0]);
-console.log("AT2.2:", scores[1]);
-console.log("AT3.2:", scores[2]);
-console.log("AT4.2:", scores[3]);
-console.log("AT5.2:", scores[4]);
-console.log("AT6.2:", scores[5]);
-console.log("AT7.2:", scores[6]);
+            console.log("AT1.3:", scores[0]);
+console.log("AT2.3:", scores[1]);
+console.log("AT3.3:", scores[2]);
+console.log("AT4.3:", scores[3]);
+console.log("AT5.3:", scores[4]);
+console.log("AT6.3:", scores[5]);
+console.log("AT7.3:", scores[6]);
 console.log("GESAMT:", correctItems);
 
 
